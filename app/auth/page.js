@@ -68,7 +68,7 @@ export default function AuthPage() {
         <div className="absolute top-4 left-4">
           <Logo/>
         </div>
-        <h1 className="text-3xl font-bold mb-4">
+        <h1 className="text-3xl font-bold mb-4 text-black">
           {isLogin ? 'Welcome Back!' : 'Join FitShare Today!'}
         </h1>
         <p className="text-gray-600 mb-8">
