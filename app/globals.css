@@ -18,19 +18,27 @@
 }
 
 body {
-  color: var(--foreground);
+  color: black;
   background-color: white !important;
   font-family: 'Poppins', sans-serif;
 }
 
+
 .sidebar {
-  position: fixed; /* Ensures the sidebar stays fixed in place */
+  position: fixed;
+  /* Ensures the sidebar stays fixed in place */
   top: 0;
   left: 0;
-  height: 100vh; /* Full height of the viewport */
-  width: 250px; /* Adjust the width as needed */
-  overflow: hidden; /* Prevent scrolling */
-  background-color: #fff; /* Background color for the sidebar */
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Optional shadow for styling */
-  z-index: 10; /* Ensure it stays above other elements */
+  height: 100vh;
+  /* Full height of the viewport */
+  width: 250px;
+  /* Adjust the width as needed */
+  overflow: hidden;
+  /* Prevent scrolling */
+  background-color: #fff;
+  /* Background color for the sidebar */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  /* Optional shadow for styling */
+  z-index: 10;
+  /* Ensure it stays above other elements */
 }
