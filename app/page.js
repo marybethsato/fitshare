@@ -22,7 +22,7 @@ export default function LandingPage() {
           </div>
         </div>
       </nav>
-      <div className="w-full relative container mx-auto rounded-[20px] overflow-hidden px-5 py-2">
+      <div className="w-full relative container mx-auto rounded-[20px] overflow-hidden px-5 py-2 bg-white">
         <div className=" h-0 pb-[48%] relative">
           <video autoPlay loop muted playsInline className="absolute top-0 left-0 w-full h-full object-cover rounded-[14px]">
             <source src="https://firebasestorage.googleapis.com/v0/b/fitshare-62b84.firebasestorage.app/o/Header.mp4?alt=media&token=87fa9c6e-eb93-41b5-b21f-24589075607c" type="video/mp4" />
