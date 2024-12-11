@@ -17,8 +17,7 @@ export default function LandingPage() {
           <Logo/>
           <div className="flex space-x-4">
             <a href="#" className="hover:bg-yellow-400 px-3 py-2 rounded">Home</a>
-            <a href="#" className="hover:bg-yellow-400 px-3 py-2 rounded">About</a>
-            <a href="#" className="hover:bg-yellow-400 px-3 py-2 rounded">Contact</a>
+            <a href="https://www.linkedin.com/in/marybethsato/" className="hover:bg-yellow-400 px-3 py-2 rounded">Contact</a>
             <a href="/auth?mode=signin" className="hover:bg-yellow-400 px-3 py-2 rounded">Sign in</a>
           </div>
         </div>
