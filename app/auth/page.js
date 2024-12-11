@@ -61,7 +61,7 @@ export default function AuthPage() {
     }
   };
   return (
-    <div className="flex h-screen">
+    <div className="flex h-screen bg-white">
 
 
       <div className="w-1/2 bg-white flex flex-col justify-center p-12 px-20 relative">

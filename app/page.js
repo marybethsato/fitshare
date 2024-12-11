@@ -11,7 +11,7 @@ export default function LandingPage() {
   };
 
   return (
-    <div className='max-w-screen overflow-x-hidden'>
+    <div className='max-w-screen overflow-x-hidden bg-white'>
       <nav className="bg-white text-black p-4">
         <div className="container mx-auto flex justify-between items-center">
           <Logo/>
