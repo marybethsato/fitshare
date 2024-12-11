@@ -1,4 +1,4 @@
-import { admin, db } from "../../../firebaseAdmin";
+import { admin, db } from "../../firebaseAdmin";
 
 export default async function handler(req, res) {
     const { userId } = req.query; // ID of the user being unfollowed

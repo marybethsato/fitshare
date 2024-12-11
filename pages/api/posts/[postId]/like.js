@@ -1,5 +1,5 @@
 // File: pages/api/posts/[postId]/like.js
-import { admin, db } from "../../../firebaseAdmin";
+import { admin, db } from "../../firebaseAdmin";
 
 export default async function handler(req, res) {
   const { postId } = req.query;

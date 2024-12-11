@@ -1,6 +1,6 @@
 import { signInWithEmailAndPassword } from 'firebase/auth';
-import { db } from '../../firebaseAdmin'; // Adjust the path to your Firestore Admin setup
-import { auth } from '../../firebaseClient';
+import { db } from '../firebaseAdmin'; // Adjust the path to your Firestore Admin setup
+import { auth } from '../firebaseClient';
 
 export default async function handler(req, res) {
   if (req.method === 'POST') {
